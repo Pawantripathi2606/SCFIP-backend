@@ -3,7 +3,7 @@ import pickle
 from tensorflow import keras
 from keras.models import Sequential, load_model
 from keras.layers import Embedding, LSTM, Dense, Dropout
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 import config
 import os
